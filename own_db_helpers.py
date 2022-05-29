@@ -1,6 +1,7 @@
 import json
 import os
 
+
 def load_data(path):
     if not os.path.exists(path):
         return None
